@@ -1,0 +1,269 @@
+import React from "react";
+import "./about.css";
+
+import Transition from "../../components/transition/Transition";
+import Footer from "../../components/footer/Footer";
+
+import Faq from "react-faq-component";
+import Marquee from "react-fast-marquee";
+
+import PortraitImg from "../../assets/images/home/flowSun.jpg";
+
+const About = () => {
+  const data = {
+    title: "",
+    rows: [
+      {
+        title: "What is there to do at Flow?",
+        content:
+          "We strive for a place where you can work, relax and connect with other travellers. We have a spacious living room to work and be creative. There is a sunny deck where it's perfect to unwind and chill. Little activity; We offer canoes, to wander around at the beautifull canals of Amsterdam.",
+      },
+      {
+        title: "what are the check-in and check-out times at flow?",
+        content:
+        "Check-in at FLOW is possible from 3:00 PM. Check-out is possible until 10:00 AM. It's possible to store your bags here if it suits your flight better. "
+      },
+      {
+        title: "What do you charge for a room?",
+        content:
+          "Prices at FLOW may depend on your stay (e.g. dates you select, hotel policies, etc.). You can see the prices by entering the room and dates you would prefer at Booking or Airbnb."
+      },
+    ],
+  };
+
+  return (
+    <>
+    <div className="about page">
+      <div className="container">
+        <section className="about-marquee">
+          <Marquee className="Marquee">
+            <h1>
+              Flow Hostel, your place to expand your creativity...
+            </h1>
+          </Marquee>
+        </section>
+
+        <section className="about-intro">
+          <h2>
+            Welcome to Flow! Our hostel is located in the heart of the city, 
+            just a short walk away from popular attractions.
+            With comfortable and affordable accommodations, our hostel offers a range of room options to suit all travelers.
+            Enjoy a communal kitchen, free Wi-Fi, and a cozy common area where you can meet fellow travelers. 
+            Our friendly staff is always ready to provide recommendations and help you make the most of your stay in this vibrant and beautiful city.   
+          </h2>
+        </section>
+
+        <section className="about-intro-copy">
+          <div className="about-row">
+            <div className="about-col">
+              <p>
+                <span>Est. 2020</span>
+              </p>
+            </div>
+            <div className="about-col">
+              <h3>
+                Whether you are a digital nomad or someone who loves a peaceful environment, 
+                our hostel offers the ideal blend of relaxation and productivity. 
+                Our comfortable accommodations provide a tranquil atmosphere, 
+                perfect for unwinding and refreshing after a day of work or exploring the city. 
+                The dedicated workspace is equipped with high-speed internet and all the amenities you need to stay focused and efficient. 
+                Additionally, our friendly staff is always available to assist, ensuring your stay is both pleasant and productive. 
+                Unwind, work, and explore at our relaxed and workspace hostel in Amsterdam.
+              </h3>
+              <h3 style={{ textIndent: "100px" }}>
+                Our hostel is named after the word flow because it symbolizes the seamless and effortless experience we aim to provide for our guests. 
+                We want them to feel a sense of ease and harmony during their stay,
+                where everything falls into place and they can relax and enjoy their time with us.
+              </h3>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-portrait">
+          <div className="about-row">
+            <div className="about-col">
+              <p>
+                <span>Contact</span>
+              </p>
+              <br />
+              <br />
+              <p>
+                <span>Email: </span> <span>info@flowhostel.nl</span>
+              </p>
+              <p>
+                <span>Phone: </span> <span>0031 6 24281824</span>
+              </p>
+              <p>
+                <span>Address: </span>{" "}
+                <span>Oosterdok 4, Amsterdam</span>
+              </p>
+
+              <br />
+              <br />
+              <br />
+            </div>
+            <div className="about-col">
+              <div className="about-portrait-img">
+                <img src={PortraitImg} alt="" />
+              </div>
+
+              <div className="faqs">
+                <Faq data={data} />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-awards">
+          <div className="about-row">
+            <div className="about-col"></div>
+            <div className="about-col award-header">
+              <p>
+                <span>Things to do nearby</span>
+              </p>
+            </div>
+          </div>
+
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>0.2km</p>
+              </div>
+              <div className="award-view">
+                <p>Nemo</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Museum</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>0.3km</p>
+              </div>
+              <div className="award-view">
+                <p>Scheepsvaart Museum</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Museum</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>0.6km</p>
+              </div>
+              <div className="award-view">
+                <p>Artis</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Zoo</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>0.6km</p>
+              </div>
+              <div className="award-view">
+                <p>Hortus Botanicus</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Botanical Garden</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>0.8km</p>
+              </div>
+              <div className="award-view">
+                <p>City Center</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Sightseeing</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+          <div className="about-row award-row">
+            <div className="about-col">
+              <div className="award-year">
+                <p>7km</p>
+              </div>
+              <div className="award-view">
+                <p>Strand Blijburg</p>
+              </div>
+            </div>
+            <div className="about-col">
+              <div className="award-info">
+                <p>Beach</p>
+              </div>
+              <div className="award-project">
+                <p>Amsterdam</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-contact">
+          <div className="about-contact-copy">
+            <h2>Powered by You</h2>
+            <p>
+              <span>
+                For all kind of questions please reach out to 
+                <a href="mailto:info@flow-hostel.nl" target="_blank" rel="noopener noreferrer"> info@flowhostel.nl</a>
+
+              </span>
+            </p>
+
+            <br />
+            <p>
+              <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer"><span>0031 6 24281824</span></a>            
+            </p>
+            <p>
+              <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a> - <a className="externalLink" href="https://soundcloud.com/user-130338946" target="_blank" rel="noopener noreferrer">airbnb</a> - <a className="externalLink" href="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer">Booking</a>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <Footer />
+    </>
+    
+  );
+};
+
+export default Transition(About);

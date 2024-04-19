@@ -1,0 +1,152 @@
+.works-hero {
+  position: relative;
+  height: 400px;
+  padding-top: 10em;
+  text-align: center;
+  z-index: 0;
+}
+
+.project-preview {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  opacity: 1;
+}
+
+.project-preview img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.project-img {
+  border-radius: 15px;
+}
+
+.project-img img {
+  transition: 0.3s all;
+}
+
+.project-img img:hover {
+  transform: scale(1.10);
+}
+
+.project-list {
+  position: relative;
+}
+
+.project-list-col {
+  flex: 3;
+}
+
+.project-list-col.whitespace-col {
+  flex: 2;
+}
+
+.project-list-row {
+  width: 75%;
+  display: flex;
+  margin: 0 auto 4em auto;
+}
+
+.project-copy h2 {
+  font-size: 80px;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-item .project-img {
+  height: 400px;
+  overflow: hidden;
+}
+
+.project-copy h2{
+  color: black;
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+.project-item:hover .project-copy h2{
+  opacity: 1;
+  color: white;
+}
+
+.project-copy.copy-pos-right {
+  top: 40%;
+  position: absolute;
+  right: -20%;
+  pointer-events: none;
+}
+
+.project-copy.copy-pos-left {
+  top: 40%;
+  position: absolute;
+  left: -20%;
+  pointer-events: none;
+}
+
+.works-marquee {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  width: 120vw;
+  left: -10vw;
+}
+
+.work-copy-wrapper h1 {
+  position: relative;
+  top: 250px;
+}
+
+@media (max-width: 1300px) {
+  .project-copy h2{
+    font-size: 60px;
+  }
+}
+@media (max-width: 1300px) {
+  .project-copy h2{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .works-hero{
+    height: 300px;
+  }
+  .project-list-row {
+    width: 100%;
+  }
+
+  .project-list-col.whitespace-col {
+    display: none;
+  }
+
+  .project-copy.copy-pos-left,
+  .project-copy.copy-pos-right {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .project-copy {
+    opacity: 1;
+  }
+
+  .project-copy h2{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-copy h2{
+    color: white;
+    opacity: 1;
+  }
+}

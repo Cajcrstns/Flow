@@ -1,0 +1,96 @@
+.sample-project-page {
+  position: absolute;
+}
+
+.project-info {
+  width: 100%;
+  position: sticky;
+  padding: 1em;
+  top: 25vh;
+  display: flex;
+}
+
+.project-info p {
+  font-size: 20px;
+  line-height: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.project-index {
+  width: 25%;
+}
+
+.project-description {
+  width: 50%;
+  padding-left: 0.5em;
+}
+
+
+.whitespace-35vh {
+  width: 100%;
+  height: 30vh;
+}
+
+.project-preview {
+  padding: 0 1em;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+
+.project-preview-col {
+  flex: 1;
+}
+
+.project-preview-col .work-video {
+  height: 400px;
+}
+
+.sample-images {
+  width: 100%;
+  padding: 1em;
+}
+
+.sample-images .s-row {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.sample-images .s-row .img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 7vh;
+}
+
+.link h2 {
+  font-size: 30px;
+}
+
+@media (max-width: 900px) {
+  .project-info {
+    flex-direction: column;
+    top: 20vh;
+    position: relative;
+  }
+
+  .project-index {
+    margin-bottom: 3em;
+  }
+
+  .project-description {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .whitespace-35vh {
+    height: 15vh;
+  }
+}

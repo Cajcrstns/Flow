@@ -1,0 +1,150 @@
+:root {
+  --color-bg: #ffffff;
+  --color-bg-light: #88bae0;
+  --color-bg-lighter: #dedee8;
+  --color-text-primary: rgb(0, 0, 0);
+  --color-text-secondary: #4a4a51;
+  --color-accent: #6ea8d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anek Latin", sans-serif;
+}
+
+.Marquee {
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+  overflow-x: hidden !important;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 150px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.25em;
+  line-height: 125%;
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 200;
+  margin: 2em 0 0.5em 0;
+  line-height: 125%;
+  color: rgb(0, 0, 0);
+}
+
+h5 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+a {
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  line-height: 150%;
+  cursor: pointer;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.btn {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  padding: 1.1em 1.3em;
+  border-radius: 100%;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.btn a {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1em 0;
+  color: var(--color-text-primary);
+  font-size: 1.25em;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid var(--color-text-secondary);
+}
+
+.input {
+  margin-bottom: 1em;
+  display: flex;
+}
+
+.input button {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--color-text-primary);
+  border-bottom: 1px solid var(--color-text-secondary);
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-size: 0.75;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
