@@ -51,7 +51,6 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="info-col img"></div>
         </div>
       </div>
       </div>
