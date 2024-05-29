@@ -39,34 +39,12 @@ const Sleep1 = () => {
           }}>
             <div className="text">
             <div className="title">
-            <motion.h5
-            ref={featured}
-            animate={animation}
-            initial="hidden"
-            variants={{
-            visible: {
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.8, ease: easeIn },
-            },
-            hidden: { opacity: 0, y: -50 },
-            }}>
+            <motion.h5>
               2 person room
             </motion.h5>
             </div>
             <div className="information">
-            <motion.h3
-            ref={featured}
-            animate={animation}
-            initial="hidden"
-            variants={{
-            visible: {
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.8, ease: easeIn },
-            },
-            hidden: { opacity: 0, y: 30 },
-            }}>
+            <motion.h3>
               our cozy two-person room!
               The room features two comfortable beds above each other with a shared bathroom. 
               Whether youre traveling with a friend or a loved one, our small but charming room 

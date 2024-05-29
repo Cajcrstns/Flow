@@ -1,6 +1,6 @@
 .whitespace-300 {
   width: 100%;
-  height: 250px;
+  height: 200px;
 }
 
 .whitespace-200 {
@@ -129,6 +129,11 @@
 }
 
 @media (max-width: 650px) {
+  .whitespace-300 {
+    width: 100%;
+    height: 100px;
+  }
+
   .work-page {
     margin-top: 0px;
   }

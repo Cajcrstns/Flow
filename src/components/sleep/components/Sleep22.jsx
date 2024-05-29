@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import WorkItem from "../rooms/room2";
+import WorkItem2 from "../rooms/room4";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
 
@@ -38,13 +38,35 @@ const Sleep1 = () => {
           hidden: { opacity: 0, y: 0 },
           }}>
             <div className="text">
-            <div className="title">
-            <motion.h5>
+            <div className="title2">
+            <motion.h5
+            ref={featured}
+            animate={animation}
+            initial="hidden"
+            variants={{
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.8, ease: easeIn },
+            },
+            hidden: { opacity: 0, y: -50 },
+            }}>
               2 person room
             </motion.h5>
             </div>
-            <div className="information">
-            <motion.h3>
+            <div className="information2">
+            <motion.h3
+            ref={featured}
+            animate={animation}
+            initial="hidden"
+            variants={{
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.8, ease: easeIn },
+            },
+            hidden: { opacity: 0, y: 30 },
+            }}>
               our cozy two-person room!
               The room features two comfortable beds above each other with a shared bathroom. 
               Whether youre traveling with a friend or a loved one, our small but charming room 
@@ -54,7 +76,7 @@ const Sleep1 = () => {
             </div>
             </div>
             <div className="imagecontainer">
-              <WorkItem className="image"/>
+              <WorkItem2 className="image"/>
             </div>
           </motion.div>
         </div>

@@ -3,6 +3,7 @@ import Sleep3 from "./components/Sleep3";
 import Sleep2 from "./components/Sleep2";
 import Sleep1 from "./components/Sleep1";
 import Sleep32 from "./components/Sleep32";
+import Sleep22 from "./components/Sleep22";
 import Sleep12 from "./components/Sleep12";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
@@ -32,7 +33,12 @@ const Work = () => {
         <Sleep12 />
       </div>
       <div className="whitespace-200"></div>
-      <Sleep2 />
+      <div className="column">
+        <Sleep2/>
+      </div>
+      <div className="row">
+        <Sleep22 />
+      </div>
       <div className="whitespace-200"></div>
       <div className="column">
         <Sleep3/>

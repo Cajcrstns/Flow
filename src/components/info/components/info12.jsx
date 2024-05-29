@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import WorkItem from "../rooms/room2";
+import InfoItem from "../images/info1image";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
 
 
-import "../Sleep.scss";
+import "../Info.scss";
 
 const Sleep1 = () => {
   const animation = useAnimation()
@@ -23,9 +23,9 @@ const Sleep1 = () => {
     <motion.div 
     >
       <motion.div>
-        <div className="works">
+        <div className="works-info">
           <motion.div 
-          className="row1"
+          className="row2"
           ref={featured}
           animate={animation}
           initial="hidden"
@@ -38,12 +38,12 @@ const Sleep1 = () => {
           hidden: { opacity: 0, y: 0 },
           }}>
             <div className="text">
-            <div className="title">
+            <div className="title-info2">
             <motion.h5>
               2 person room
             </motion.h5>
             </div>
-            <div className="information">
+            <div className="information-info2">
             <motion.h3>
               our cozy two-person room!
               The room features two comfortable beds above each other with a shared bathroom. 
@@ -54,7 +54,7 @@ const Sleep1 = () => {
             </div>
             </div>
             <div className="imagecontainer">
-              <WorkItem className="image"/>
+            <InfoItem className="image"/>
             </div>
           </motion.div>
         </div>

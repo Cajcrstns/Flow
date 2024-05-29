@@ -35,3 +35,10 @@
     align-items: flex-end;
   }
 }
+@media (max-width: 450px) {
+  .footer-col .footer2-item a {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
