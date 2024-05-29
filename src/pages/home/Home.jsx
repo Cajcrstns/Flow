@@ -1,59 +1,113 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from 'react';
+import gsap from 'gsap';
+import ScrollTrigger  from 'gsap/dist/ScrollTrigger';
+
+import Transition from '../../components/transition/Transition';
+import View from "../../components/view/View";
+import About from '../../components/about/About';
+import Sleep from "../../components/sleep/Sleep"
+import Blog from "../../pages/blog/Blog"
+import Info from "../../components/info/Info"
+
+gsap.registerPlugin(ScrollTrigger)
+
 import "./home.css";
 
-import Transition from "../../components/transition/Transition";
-import PortraitImg from "../../assets/images/home/flowSun.jpg";
+function Home() {
+useEffect(() => {
+    const sectionColor = document.querySelectorAll('[data-bgcolor]');
+    sectionColor.forEach((colorSection, i) => {
+      const prevBgColor = i === 0 ? '' : sectionColor[i - 1].dataset.bgcolor;
+      const prevTextColor =
+        i === 0 ? '' : sectionColor[i - 1].dataset.textcolor;
 
-import { gsap } from "gsap";
-
-const Home = () => {
-  const heroCopyReveal = useRef();
-  const heroImageReveal = useRef();
-  const heroTaglineReveal = useRef();
-
-  useEffect(() => {
-    heroCopyReveal.current = gsap.timeline({ paused: true }).to("h1", {
-      top: "0",
-      duration: 1,
-      stagger: 0.2,
-      ease: "power3.out",
-      delay: 0.35,
+      ScrollTrigger.create({
+        trigger: colorSection,
+        start: 'top 50%',
+        onEnter: () =>
+          gsap.to('.main', {
+            backgroundColor: colorSection.dataset.bgcolor,
+            color: colorSection.dataset.textcolor,
+            overwrite: 'auto',
+        }),
+        onLeaveBack: () =>
+          gsap.to('.main', {
+            backgroundColor: prevBgColor,
+            color: prevTextColor,
+            overwrite: 'auto',
+          }),
+      });
     });
 
-    heroImageReveal.current = gsap
-      .timeline({ paused: true })
-      .from(".hero-img", {
-        y: "1000",
-        duration: 1,
-        ease: "power3.out",
-        delay: 0.5,
-      });
-
-    heroTaglineReveal.current = gsap
-      .timeline({ paused: true })
-      .from(".hero-tagline", {
-        opacity: 0,
-        bottom: "-5%",
-        duration: 1,
-        ease: "power3.out",
-        delay: 0.75,
-      });
-
-    heroCopyReveal.current.play();
-    heroImageReveal.current.play();
-    heroTaglineReveal.current.play();
-  }, []);
+    return () => {};
+}, []); 
   return (
-    <div className="hero-section">
-      <div className="hero-img">
-        <img src={PortraitImg} alt="" />
-      </div>
-      <div className="hero-tagline">
-        <h5>Expand your creativity. Rewind in the heart of Amsterdam.</h5>
-        <p>Expand your creativity. Rewind in the heart of Amsterdam.</p>
-      </div>
+    <div className='main'>
+        <div className='bgcolor'></div>
+        <section 
+            className="section"
+            data-bgcolor="#fff"
+            data-textcolor="#000"
+            id='Flow'
+        >
+            <div
+                className="home"
+                
+            >
+                <View />  
+            </div>
+        </section>     
+        <section
+            className="section"
+            data-bgcolor="#a0d0e5"
+            data-textcolor="#FFFFFF"
+        >
+            <div
+                className="about"
+            >
+
+                <About />
+            </div>
+        </section>
+        <section
+            className="section"
+            data-bgcolor="#e6cda3"
+            data-textcolor="#FFFFFF"
+            id="Sleep"
+        >
+            <div
+                className="sleep"
+            >
+                <Sleep />
+            </div>
+        </section>
+        <section
+            className="section"
+            data-bgcolor="#e6cda3"
+            data-textcolor="#FFFFFF"
+            id="Mindfulness"
+        >
+            <div
+                className="mindfulness"   
+            >
+                <Blog />
+            </div>
+        </section>
+        <section
+            className="section"
+            data-bgcolor="#eebca5"
+            data-textcolor="#FFFFFF"
+            id='info'
+        >
+            <div
+                className="mindfulness"   
+            >
+                <Info />
+                
+            </div>
+        </section>
     </div>
   );
-};
+}
 
 export default Transition(Home);

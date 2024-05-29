@@ -33,7 +33,7 @@ const About = () => {
 
   return (
     <>
-    <div className="about page">
+    <div className="about-page">
       <div className="container">
         <section className="about-marquee">
           <Marquee className="Marquee">
@@ -238,26 +238,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className="about-contact">
-          <div className="about-contact-copy">
-            <h2>Powered by You</h2>
-            <p>
-              <span>
-                For all kind of questions please reach out to 
-                <a href="mailto:info@flow-hostel.nl" target="_blank" rel="noopener noreferrer"> info@flowhostel.nl</a>
 
-              </span>
-            </p>
-
-            <br />
-            <p>
-              <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer"><span>0031 6 24281824</span></a>            
-            </p>
-            <p>
-              <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a> - <a className="externalLink" href="https://soundcloud.com/user-130338946" target="_blank" rel="noopener noreferrer">airbnb</a> - <a className="externalLink" href="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer">Booking</a>
-            </p>
-          </div>
-        </section>
       </div>
     </div>
     <Footer />

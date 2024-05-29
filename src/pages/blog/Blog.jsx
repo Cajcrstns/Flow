@@ -43,7 +43,7 @@ const Blog = () => {
               Take some time for yourself and immerse in the transformative power of yoga and meditation during your stay with us.
               </p>
               <br />
-              <p>
+              <p className="infotwo">
               We offer this to provide our guests with an opportunity to unwind, de-stress, 
               and find inner peace during their stay. We understand the importance of self-care and well-being, 
               and believe that these practices can greatly enhance the overall experience and enjoyment of our guests. 

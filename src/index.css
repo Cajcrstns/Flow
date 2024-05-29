@@ -30,7 +30,6 @@ h1 {
   text-transform: uppercase;
   font-size: 150px;
   font-weight: 500;
-  color: rgb(0, 0, 0);
   line-height: 100%;
 }
 
@@ -38,7 +37,6 @@ h2 {
   font-size: 50px;
   font-weight: 500;
   letter-spacing: -0.015em;
-  color: rgb(0, 0, 0);
 }
 
 h3 {
@@ -47,7 +45,6 @@ h3 {
   letter-spacing: -0.01em;
   margin-bottom: 0.25em;
   line-height: 125%;
-  color: rgb(0, 0, 0);
 }
 
 h4 {
@@ -55,7 +52,6 @@ h4 {
   font-weight: 200;
   margin: 2em 0 0.5em 0;
   line-height: 125%;
-  color: rgb(0, 0, 0);
 }
 
 h5 {

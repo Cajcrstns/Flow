@@ -1,54 +1,32 @@
-.hero-section {
-  height: 100svh;
+.main {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+#sleep {
+  z-index: 10;
+}
+
+#mindfulness {
+  z-index: 1;
+}
+
+.homeabout {
+  height: 150px;
   width: 100%;
-  overflow: hidden !important;
+  
 }
 
-.hero-img {
-  overflow: hidden !important;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60vw;
-  height: 60vh;
-  z-index: 0;
-}
-
-.hero-tagline {
+.sleepmindfulness {
+  height: 150px;
   width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, 0%);
+ 
 }
 
-.hero-tagline p{
-  font-family: 'KCHand';
-  font-size: 0px;
-  color: white;
-}
+.mindfulnesscontact {
+  height: 150px;
+  width: 100%;
 
-@media (max-width: 1100px) {
-  .hero-img {
-    width: 70vw;
-  }
-}
-
-@media (max-width: 900px) {
-  .hero-tagline{
-    width: 80%;
-  }
-  .hero-img{
-    width: 80vw;
-  }
-}
-
-@media (max-width: 450px) {
-  .hero-img {
-    width: 90vw;
-    height: 50vh;
-  }
-}
-
+} */

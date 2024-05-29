@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Satoshi';
+  font-style: normal;
+  src: local('KCLisa'), url(/fonts/Satoshi.otf) format('truetype');
+}
+
+.hero-section {
+  height: 100svh;
+  width: 100%;
+  overflow: hidden !important;
+}
+
+.hero-img {
+  overflow: hidden !important;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 60vh;
+  z-index: 0;
+}
+
+.hero-tagline {
+  font-family: 'KCLisa';
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: -28%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.hero-tagline p{
+  font-size: 0px;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .hero-img {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-tagline{
+    width: 80%;
+  }
+  .hero-img{
+    width: 80vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-img {
+    width: 90vw;
+    height: 50vh;
+  }
+}
+
