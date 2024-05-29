@@ -5,7 +5,7 @@ import "./about.scss";
 export default function About() {
   return (
     <div className="container2">
-    <div className="about-intro">
+    <div className="about2-intro">
             <h2>
               Welcome to Flow! Our hostel is located in the heart of the city, 
               just a short walk away from popular attractions.
