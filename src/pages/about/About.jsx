@@ -35,14 +35,6 @@ const About = () => {
     <>
     <div className="about-page">
       <div className="container">
-        <section className="about-marquee">
-          <Marquee className="Marquee">
-            <h1>
-              Flow Hostel, your place to expand your creativity...
-            </h1>
-          </Marquee>
-        </section>
-
         <section className="about-intro">
           <h2>
             Welcome to Flow! Our hostel is located in the heart of the city, 

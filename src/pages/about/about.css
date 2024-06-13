@@ -20,8 +20,11 @@
   flex: 3;
 }
 
+.about-intro {
+  margin-top: 150px;
+}
+
 .about-intro h2 {
-  text-indent: 400px;
   margin: 2em 0;
   font-size: 40px;
 }
