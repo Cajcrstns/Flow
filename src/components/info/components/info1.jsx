@@ -51,7 +51,7 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: -50 },
             }}>
-              2 person room
+              Location
             </motion.h5>
             </div>
             <div className="information-info2">
@@ -67,11 +67,11 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: 30 },
             }}>
-              our cozy two-person room!
-              The room features two comfortable beds above each other with a shared bathroom. 
-              Whether youre traveling with a friend or a loved one, our small but charming room 
-              is the perfect choice for a budget-friendly and intimate stay in our hostel. 
-              Enjoy your time here!
+              Set in Amsterdam and with Rembrandt House reachable within less than 1 km, 
+             FLOW offers concierge services, non-smoking rooms, a shared lounge, free WiFi and a terrace. 
+             The property is close to several well-known attractions, 1.3 km from Beurs van Berlage,
+             1 km from Basilica of Saint Nicholas and 1.2 km from Amsterdam Central Station. 
+             The property is 800 meters from the city center and less than 1 km from the National Opera & Ballet.
             </motion.h3>
             </div>
             </div>

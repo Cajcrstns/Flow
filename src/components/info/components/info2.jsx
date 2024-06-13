@@ -51,7 +51,7 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: -50 },
             }}>
-              2 person room
+              Access
             </motion.h5>
             </div>
             <div className="information-info2">
@@ -67,11 +67,9 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: 30 },
             }}>
-              our cozy two-person room!
-              The room features two comfortable beds above each other with a shared bathroom. 
-              Whether youre traveling with a friend or a loved one, our small but charming room 
-              is the perfect choice for a budget-friendly and intimate stay in our hostel. 
-              Enjoy your time here!
+              locatie,<br/>
+              welke stijger,<br/>
+              parking,<br/>
             </motion.h3>
             </div>
             </div>

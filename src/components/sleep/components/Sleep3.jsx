@@ -54,7 +54,7 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: -50 },
             }}>
-              2 person room
+               6 person room
             </motion.h5>
             </div>
             <div className="information">
@@ -70,11 +70,10 @@ const Sleep1 = () => {
             },
             hidden: { opacity: 0, y: 30 },
             }}>
-              our cozy two-person room!
-              The room features two comfortable beds above each other with a shared bathroom. 
-              Whether youre traveling with a friend or a loved one, our small but charming room 
-              is the perfect choice for a budget-friendly and intimate stay in our hostel. 
-              Enjoy your time here!
+              Welcome to our cozy six-person room at our hostel! 
+              This compact yet comfortable space is designed to provide a relaxing and affordable stay for small groups. 
+              Equipped with all the essential amenities, including comfortable beds and private toilet, 
+              the room ensures a convenient and enjoyable experience during your time with us.
             </motion.h3>
             </div>
             </div>

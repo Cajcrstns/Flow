@@ -32,14 +32,12 @@ const Work = () => {
       <div className="row">
         <Sleep12 />
       </div>
-      <div className="whitespace-200"></div>
       <div className="column">
         <Sleep2/>
       </div>
       <div className="row">
         <Sleep22 />
       </div>
-      <div className="whitespace-200"></div>
       <div className="column">
         <Sleep3/>
       </div>

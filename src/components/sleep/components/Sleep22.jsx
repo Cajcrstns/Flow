@@ -40,16 +40,15 @@ const Sleep1 = () => {
             <div className="text">
             <div className="title2">
             <motion.h5>
-              2 person room
+              4 person room
             </motion.h5>
             </div>
             <div className="information2">
             <motion.h3>
-              our cozy two-person room!
-              The room features two comfortable beds above each other with a shared bathroom. 
-              Whether youre traveling with a friend or a loved one, our small but charming room 
-              is the perfect choice for a budget-friendly and intimate stay in our hostel. 
-              Enjoy your time here!
+              our cozy four-person room at our hostel! With comfy beds, clean linens, and a warm ambiance, 
+              this room is perfect for travelers looking for a comfortable and affordable accommodation. 
+              The room is designed to provide a relaxing and peaceful stay, giving you the chance to recharge after a day of exploring.
+              Enjoy your stay!
             </motion.h3>
             </div>
             </div>
