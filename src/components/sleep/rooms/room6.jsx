@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Blur from "../../plaiceholder/blur";
 
 import ProjectImg3 from "../../../assets/images/projects/project-32.jpg";
