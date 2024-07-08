@@ -43,3 +43,9 @@
   }
 }
 
+@media (max-width: 450px) {
+  .footer-col .footer2-item a {
+    font-size: 20px;
+  }
+}
+
