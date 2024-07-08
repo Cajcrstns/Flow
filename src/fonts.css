@@ -15,7 +15,13 @@
 } */
 
 @font-face {
-  font-family: 'KCHand';
+  font-family: 'hand';
   font-style: normal;
   src: local('KCHand'), url(/src/assets/fonts/KCHand.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'lisa';
+  font-style: normal;
+  src: local('KCLisa'), url(/src/assets/fonts/KCLisa.otf) format('truetype');
 }

@@ -49,7 +49,7 @@ const About = () => {
           <div className="about-row">
             <div className="about-col">
               <p>
-                <span>Est. 2020</span>
+                <h3>Est. 2020</h3>
               </p>
             </div>
             <div className="about-col">
@@ -75,19 +75,19 @@ const About = () => {
           <div className="about-row">
             <div className="about-col">
               <p>
-                <span>Contact</span>
+                <h3>Contact</h3>
               </p>
               <br />
               <br />
               <p>
-                <span>Email: </span> <span>info@flowhostel.nl</span>
+                <h3>Email: </h3> <h3>info@flowhostel.nl</h3>
               </p>
               <p>
-                <span>Phone: </span> <span>0031 6 24281824</span>
+                <h3>Phone: </h3> <h3>0031 6 24281824</h3>
               </p>
               <p>
-                <span>Address: </span>{" "}
-                <span>Oosterdok 4, Amsterdam</span>
+                <h3>Address: </h3>{" "}
+                <h3>Oosterdok 4, Amsterdam</h3>
               </p>
 
               <br />
@@ -110,9 +110,9 @@ const About = () => {
           <div className="about-row">
             <div className="about-col"></div>
             <div className="about-col award-header">
-              <p>
+              <h3>
                 <span>Things to do nearby</span>
-              </p>
+              </h3>
             </div>
           </div>
 

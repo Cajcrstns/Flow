@@ -16,9 +16,9 @@
 
 .info-row-mindfulness p {
   line-height: 1.3em;
-  font-size: 23px;
+  font-size: 29px;
   color: white;
-  font-family: 'KCHand';
+  font-family: "lisa";
 }
 
 
@@ -87,9 +87,7 @@
   .mustang-video {
     transform: scale(3);
   }
-  .infotwo {
-    display: none;
-  }
+
 }
 @media (max-width: 430px) {
   .info-row-mindfulness {

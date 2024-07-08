@@ -18,6 +18,7 @@
 .about-intro h2 {
   margin: 2em 0;
   font-size: 40px;
+  font-family: "lisa";
 }
 
 .about-intro-copy,
@@ -29,21 +30,25 @@
 .about-intro-copy h3 {
   font-weight: 200 !important;
   font-size: 24px;
+  font-family: "lisa";
 }
 
-.about-portrait .about-col p {
+.about-portrait .about-col h3 {
   display: flex;
   justify-content: flex-start;
+  font-family: "lisa";
+  font-size: 24px;
 }
 
-.about-portrait .about-col p span:nth-child(1) {
+.about-portrait .about-col h3 span:nth-child(1) {
   flex: 1;
+
 }
 
-.about-portrait .about-col p span:nth-child(2) {
+.about-portrait .about-col h3 span:nth-child(2) {
   flex: 3;
   text-transform: none;
-  font-size: 1em;
+  font-size: 24px;
 }
 
 .faqs {
@@ -62,6 +67,7 @@
 .faqs > div section section div {
   color: black !important;
   font-size: 24px;
+  font-family: "lisa";
 }
 
 .faqs > div section section div:nth-child(2) div {
@@ -87,6 +93,11 @@
 .about-row.award-row {
   padding: 15px 0;
   border-bottom: 1px solid var(--color-text-secondary);
+  font-family: "lisa";
+}
+
+.about-row.award-row p{
+  font-family: "lisa";
 }
 
 .about-row.award-row .about-col {
@@ -117,12 +128,15 @@
 
 .about-contact-copy h2 {
   margin-bottom: 0.25em;
+  font-family: "lisa";
+
 }
 
 .about-contact-copy p span {
   text-transform: none;
   font-weight: 300;
   font-size: 20px;
+  font-family: "lisa";
 }
 
 @media (max-width: 900px) {

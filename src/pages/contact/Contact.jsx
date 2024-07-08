@@ -16,90 +16,90 @@ const Contact = () => {
 
   return (
     <>
-    <div className="contact page">
-      <div className="container">
-        <section className="contact-hero">
-          <div className="contact-row">
-            <div className="contact-col"></div>
-            <div className="contact-col">
-              <h1>
-                Feel free to write me a message <span>or let's be social!</span>
-              </h1>
+      <div className="contact page">
+        <div className="container">
+          <section className="contact-hero">
+            <div className="contact-row">
+              <div className="contact-col"></div>
+              <div className="contact-col">
+                <h1>
+                  If you want to book a room or ask us question. Feel free to write a message <span>or let's be social!</span>
+                </h1>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="section contact-form">
-          <div className="contact-row">
-            <div className="contact-col">
-              <p>
-                <span>Contact</span>
-              </p>
-            </div>
-            <div className="contact-col">
-              <form onSubmit={handleSubmit}>
-                <div className="input">
-                  <input type="text" name="name" placeholder="Name" />
-                  <ValidationError 
-                        prefix="Name" 
-                        field="name"
-                        errors={state.errors}
+          <section className="section contact-form">
+            <div className="contact-row">
+              <div className="contact-col">
+                <h3>
+                  <span>Contact</span>
+                </h3>
+              </div>
+              <div className="contact-col">
+                <form onSubmit={handleSubmit}>
+                  <div className="input">
+                    <input className="inputtext" type="text" name="name" placeholder="Name" />
+                    <ValidationError
+                      prefix="Name"
+                      field="name"
+                      errors={state.errors}
                     />
-                </div>
-                <div className="input">
-                  <textarea type="text" name="message" placeholder="Message" rows={6} />
-                  <ValidationError 
-                    prefix="Message" 
-                    field="message"
-                    errors={state.errors}
-                  />
-                </div>
-                <div className="input">
-                  <input type="text" name="email" placeholder="Email" />
-                    <ValidationError 
-                        prefix="Email" 
-                        field="email"
-                        errors={state.errors}
+                  </div>
+                  <div className="input">
+                    <textarea className="inputtext" type="text" name="message" placeholder="Message" rows={6} />
+                    <ValidationError
+                      prefix="Message"
+                      field="message"
+                      errors={state.errors}
                     />
-                  <button classname="submit" type="submit" disabled={state.submitting}>
-                    <span>Submit</span>
-                  </button>
-                </div>
-              </form>
+                  </div>
+                  <div className="input">
+                    <input className="inputtext" type="text" name="email" placeholder="Email" />
+                    <ValidationError
+                      prefix="Email"
+                      field="email"
+                      errors={state.errors}
+                    />
+                    <button classname="submit" type="submit" disabled={state.submitting}>
+                      <h3><span>Submit</span></h3>
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="contact-socials">
-          <div className="contact-row">
-            <div className="contact-col">
-              <p>
-                <span>Socials</span>
-              </p>
+          <section className="contact-socials">
+            <div className="contact-row">
+              <div className="contact-col">
+                <h3>
+                  <span>Socials</span>
+                </h3>
+              </div>
+              <div className="contact-col">
+                <div className="contact-social-link">
+                  <p>
+                    <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                  </p>
+                </div>
+                <div className="contact-social-link">
+                  <p>
+                    <a href="mailto:info@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
+                  </p>
+                </div>
+                <div className="contact-social-link">
+                  <p>
+                    <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer">phone</a>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="contact-col">
-              <div className="contact-social-link">
-                <p>
-                <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                </p>
-              </div>
-              <div className="contact-social-link">
-                <p>
-                  <a href="https://soundcloud.com/user-130338946" target="_blank" rel="noopener noreferrer">Airbnb</a>
-                </p>
-              </div>
-              <div className="contact-social-link">
-                <p>
-                  <a href="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer">Booking</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
+
       </div>
-      
-    </div>
-    <Footer />
+      <Footer />
     </>
   );
 };

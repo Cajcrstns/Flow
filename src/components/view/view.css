@@ -27,13 +27,18 @@
 }
 
 .hero-tagline {
-  font-family: 'KCLisa';
+
   width: 100%;
   text-align: center;
   position: relative;
   bottom: 13%;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+
+.hero-tagline h5 {
+  font-family: "lisa";
+  font-size: 22px;
 }
 
 .hero-tagline p{
