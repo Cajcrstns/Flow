@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger  from 'gsap/dist/ScrollTrigger';
 
@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger)
 import "./home.css";
 
 function Home() {
-useEffect(() => {
+useLayoutEffect(() => {
     const sectionColor = document.querySelectorAll('[data-bgcolor]');
     sectionColor.forEach((colorSection, i) => {
       const prevBgColor = i === 0 ? '' : sectionColor[i - 1].dataset.bgcolor;
@@ -23,6 +23,7 @@ useEffect(() => {
 
       ScrollTrigger.create({
         trigger: colorSection,
+        type: "wheel,touch,scroll,pointer",
         start: 'top 50%',
         onEnter: () =>
           gsap.to('.main', {
@@ -37,6 +38,8 @@ useEffect(() => {
             overwrite: 'auto',
           }),
       });
+
+
     });
 
     return () => {};
