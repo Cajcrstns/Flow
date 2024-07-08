@@ -15,6 +15,10 @@ import "./home.css";
 
 function Home() {
 useLayoutEffect(() => {
+    ScrollTrigger.defaults({
+        scroller: '.main',
+      });
+      
     const sectionColor = document.querySelectorAll('[data-bgcolor]');
     sectionColor.forEach((colorSection, i) => {
       const prevBgColor = i === 0 ? '' : sectionColor[i - 1].dataset.bgcolor;
