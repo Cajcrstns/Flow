@@ -50,7 +50,7 @@ const Sleep1 = () => {
               The room is designed to provide a relaxing and peaceful stay, giving you the chance to recharge after a day of exploring.
               Enjoy your stay!
               <br /><br />
-              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
+              <Link to="/four-person-room" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>

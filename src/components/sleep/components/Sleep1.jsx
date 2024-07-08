@@ -76,7 +76,7 @@ const Sleep1 = () => {
               is the perfect choice for a budget-friendly and intimate stay in our hostel. 
               Enjoy your time here!
               <br /><br />
-              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
+              <Link to="/two-person-room" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>

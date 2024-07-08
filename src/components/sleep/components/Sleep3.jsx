@@ -75,7 +75,7 @@ const Sleep1 = () => {
               Equipped with all the essential amenities, including comfortable beds and private toilet, 
               the room ensures a convenient and enjoyable experience during your time with us.
               <br /><br />
-              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
+              <Link to="/six-person-room" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>
