@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import WorkItem2 from "../rooms/room4";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
-
+import { Link } from "react-router-dom";
 
 import "../Sleep.scss";
 
@@ -49,6 +49,8 @@ const Sleep1 = () => {
               this room is perfect for travelers looking for a comfortable and affordable accommodation. 
               The room is designed to provide a relaxing and peaceful stay, giving you the chance to recharge after a day of exploring.
               Enjoy your stay!
+              <br /><br />
+              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>

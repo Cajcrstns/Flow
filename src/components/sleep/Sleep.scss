@@ -82,6 +82,16 @@
   font-family: "lisa";
 }
 
+.link h5 {
+  color: rgb(75, 75, 75);
+  transition: color 0.3s;
+}
+
+.link h5:hover {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+}
+
 @media (max-width: 1150px) {
   .row1 h3, .row2 h3 , .row3 h3{
     font-weight: 100;

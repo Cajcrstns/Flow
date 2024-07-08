@@ -27,7 +27,7 @@ const SampleProject = () => {
           <p>2 Person Room</p>
         </div>
         <div className="project-index">
-          <Link to="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer"><h2>BOOK!</h2></Link>
+          <Link to="/contact"><h2>BOOK!</h2></Link>
         </div>
         <div className="project-description">
           <p>

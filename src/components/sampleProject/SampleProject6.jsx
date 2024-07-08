@@ -29,7 +29,7 @@ const SampleProject = () => {
           <p>6 Person Room</p>
         </div>
         <div className="project-index">
-          <Link to="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer"><h2>BOOK!</h2></Link>        </div>
+          <Link to="/contact" target="_blank" rel="noopener noreferrer"><h2>BOOK!</h2></Link>        </div>
         <div className="project-description">
           <p>
           Welcome to our cozy six-person room at our hostel! This compact yet comfortable space is designed to provide a relaxing and affordable stay for small groups. Equipped with all the essential amenities, including comfortable beds and private toilet, the room ensures a convenient and enjoyable experience during your time with us. 

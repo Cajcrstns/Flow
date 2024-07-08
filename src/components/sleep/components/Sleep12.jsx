@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import WorkItem from "../rooms/room2";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
-
+import { Link } from "react-router-dom";
 
 import "../Sleep.scss";
 
@@ -50,6 +50,8 @@ const Sleep1 = () => {
               Whether youre traveling with a friend or a loved one, our small but charming room 
               is the perfect choice for a budget-friendly and intimate stay in our hostel. 
               Enjoy your time here!
+              <br /><br />
+              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>

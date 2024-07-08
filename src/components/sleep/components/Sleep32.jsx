@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import WorkItem from "../rooms/room2";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
-
+import { Link } from "react-router-dom";
 
 import "../Sleep.scss";
 
@@ -49,6 +49,8 @@ const Sleep1 = () => {
               This compact yet comfortable space is designed to provide a relaxing and affordable stay for small groups. 
               Equipped with all the essential amenities, including comfortable beds and private toilet, 
               the room ensures a convenient and enjoyable experience during your time with us.
+              <br /><br />
+              <Link to="/contact" className="link"><h5>Learn More</h5></Link>
             </motion.h3>
             </div>
             </div>

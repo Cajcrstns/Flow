@@ -21,6 +21,12 @@
   font-family: "lisa";
   font-family: "lisa";
   font-size: 30px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.footer-col .footer-item a:hover {
+  color: rgb(148, 148, 148);
 }
 
 @media (max-width: 900px) {

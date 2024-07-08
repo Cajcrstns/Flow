@@ -26,7 +26,7 @@ const SampleProject = () => {
           <p>4 Person Room</p>
         </div>
         <div className="project-index">
-          <Link to="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer"><h2>BOOK!</h2></Link>        </div>
+          <Link to="/contact"><h2>BOOK!</h2></Link>        </div>
         <div className="project-description">
           <p>
           Welcome to our cozy four-person room at our hostel! With comfy beds, clean linens, and a warm ambiance, this room is perfect for travelers looking for a comfortable and affordable accommodation. The room is designed to provide a relaxing and peaceful stay, giving you the chance to recharge after a day of exploring. Enjoy your stay!
