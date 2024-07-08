@@ -46,8 +46,8 @@ useEffect(() => {
         <div className='bgcolor'></div>
         <section 
             className="flow"
-            data-bgcolor="#a0d0e5"
-            data-textcolor="#FFFFFF"
+            data-bgcolor="#FAF0DC"
+            data-textcolor="#000"
         >
             <div
                 className="home"

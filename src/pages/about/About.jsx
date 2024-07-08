@@ -80,14 +80,13 @@ const About = () => {
               <br />
               <br />
               <p>
-                <h3>Email: </h3> <h3>info@flowhostel.nl</h3>
+                <h3>Email: info@flowhostel.nl</h3>
               </p>
               <p>
-                <h3>Phone: </h3> <h3>0031 6 24281824</h3>
+                <h3>Phone: 0031 6 24281824</h3>
               </p>
               <p>
-                <h3>Address: </h3>{" "}
-                <h3>Oosterdok 4, Amsterdam</h3>
+                <h3>Address: Oosterdok 4, Amsterdam</h3>
               </p>
 
               <br />
