@@ -1,4 +1,16 @@
-.about-row {
+.about-intro-copy .about-row {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+}
+
+.about-portrait .about-row {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+}
+
+.about-awards .about-row {
   width: 100%;
   display: flex !important;
   flex-direction: row;
