@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="contact-col"></div>
               <div className="contact-col">
                 <h1>
-                  If you want to book a room or ask us question. Feel free to write a message <span>or let's be social!</span>
+                  If you want to book a room or ask us a question. Feel free to write a message <span>or let's be social!</span>
                 </h1>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-social-link">
                   <p>
-                    <a href="mailto:info@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
+                    <a href="mailto:moos@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
                   </p>
                 </div>
                 <div className="contact-social-link">

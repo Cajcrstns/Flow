@@ -28,7 +28,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a>
           </div>
           <div className="footer2-item">
-            <a href="mailto:info@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
+            <a href="mailto:moos@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
           </div>
           <div className="footer2-item">
             <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer">phone</a>

@@ -1,0 +1,23 @@
+.loader-inner {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden !important;
+    background-color: #6ea8d5;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-wrapper img {
+    position: absolute !important;
+    transform: scale(0.5);
+    width: 100%;
+    object-fit: contain;
+    margin-top: 4%;
+}
