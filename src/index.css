@@ -1,10 +1,10 @@
 :root {
   --color-bg: #a0d0e5;
-  --color-bg-light: #88bae0;
+  --color-bg-light: #b3dced;
   --color-bg-lighter: #dedee8;
   --color-text-primary: rgb(0, 0, 0);
   --color-text-secondary: #4a4a51;
-  --color-accent: #6ea8d5;
+  --color-accent: #bde4f5;
 }
 
 * {
