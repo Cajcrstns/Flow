@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 
 import logo from "../../assets/images/home/logo.png";
 import "./Loader.css"
+import Transition from "../../components/transition/Transition";
+
 
 const Loader = ({ setLoading }) => {
     const container = {
@@ -45,4 +47,4 @@ const Loader = ({ setLoading }) => {
     );
 };
 
-export default Loader;
+export default Transition(Loader);
