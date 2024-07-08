@@ -151,3 +151,9 @@ textarea {
     font-size: 36px;
   }
 }
+
+@media (max-width: 500px) {
+  :root {
+    --color-accent: #a0d0e5;
+  }
+}
