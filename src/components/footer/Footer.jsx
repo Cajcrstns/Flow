@@ -28,10 +28,10 @@ const Footer = () => {
             <a href="https://www.instagram.com/flow.hostel/" target="_blank" rel="noopener noreferrer">Instagram</a>
           </div>
           <div className="footer-item">
-            <a href="https://soundcloud.com/user-130338946" target="_blank" rel="noopener noreferrer">Airbnb</a>
+            <a href="mailto:info@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
           </div>
           <div className="footer-item">
-            <a href="https://www.booking.com/hotel/nl/flow-amsterdam.nl.html" target="_blank" rel="noopener noreferrer">Booking</a>
+            <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer">phone</a>
           </div>
         </div>
       </div>

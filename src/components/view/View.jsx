@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from "react";
 import "./view.css";
 
 import PortraitImg from "../../assets/images/home/flowSun.jpg";
+import leaf2 from "../../assets/images/home/leaf2.png";
+import leaf3 from "../../assets/images/home/leaf3.png";
+import leaf7 from "../../assets/images/home/leaf7.png";
 
 
 import { gsap } from "gsap";
@@ -47,13 +50,17 @@ const View = () => {
     <div className="hero-section">
       <div className="hero-img">
         <img src={PortraitImg} alt="" />
+        <div className="leafs">
+          <img className="leaf2" src={leaf2} />
+          <img className="leaf3" src={leaf3} />
+          <img className="leaf7" src={leaf7} />
+        </div>
       </div>
       <div className="hero-tagline">
         <h5>Expand your creativity. Rewind in the heart of Amsterdam.</h5>
         <p>Expand your creativity. Rewind in the heart of Amsterdam.</p>
       </div>
     </div>
-
   );
 };
 

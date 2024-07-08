@@ -1,7 +1,7 @@
 .works-hero {
   position: relative;
   height: 400px;
-  padding-top: 10em;
+  padding-top: 9em;
   text-align: center;
   z-index: 0;
 }
@@ -91,7 +91,6 @@
 
 .works-marquee {
   position: relative;
-  overflow: hidden;
   z-index: 0;
   width: 120vw;
   left: -10vw;

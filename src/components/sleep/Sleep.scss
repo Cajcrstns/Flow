@@ -137,7 +137,6 @@
 
   .row1, .row2, .row3 {
     flex-direction: column;
-    gap: 50px;
   }
   .imagecontainer {
     width: 100%;
@@ -171,10 +170,13 @@
   .row1 h3, .row2 h3 , .row3 h3{
     font-weight: 100;
     font-size: 20px;
+    
   }
   
   .row1 h5, .row2 h5, .row3 h5{
     font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 10px;
   }
 
   .row {

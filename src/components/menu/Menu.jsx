@@ -145,12 +145,6 @@ const Menu = () => {
           <Link to="/"><img src={Logo} alt="" /></Link>
         </div>
         <div className="menu-actions">
-          <div className="contact-btn">
-            <a><div className="btn">
-              <a href=""><img src={Airbnb} alt="" /></a>
-            </div>
-            </a>
-          </div>
           <div className="menu-toggle">
             <button className="hamburger-icon" onClick={toggleMenu}></button>
           </div>
