@@ -85,8 +85,7 @@
 }
 
 @media (max-width: 450px) {
-  .hero-img {
-    width: 90vw;
-    height: 50vh;
+  .hero-img img{
+    width: 75%;
   }
 }
