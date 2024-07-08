@@ -71,7 +71,7 @@ useEffect(() => {
         </section>
         <section
             className="section"
-            data-bgcolor="#e6cda3"
+            data-bgcolor="#e8dcca"
             data-textcolor="#FFFFFF"
             id="Sleep"
         >
@@ -83,7 +83,7 @@ useEffect(() => {
         </section>
         <section
             className="section"
-            data-bgcolor="#e6cda3"
+            data-bgcolor="##e8dcca"
             data-textcolor="#FFFFFF"
             id="Mindfulness"
         >
