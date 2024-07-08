@@ -1,6 +1,7 @@
 .about-row {
   width: 100%;
-  display: flex;
+  display: flex !important;
+  flex-direction: row;
 }
 
 .about-col:nth-child(1) {
