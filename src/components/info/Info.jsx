@@ -1,17 +1,15 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
+
 import Info1 from "./components/info1";
 import Info12 from "./components/info12";
 import Info2 from "./components/info2";
 import Info22 from "./components/info22";
-
+import Footer2 from "../footer2/Footer2";
+import Footer from "../footer/Footer";
 
 import "./Info.scss";
-
-
-import Footer2 from "../footer2/Footer2";
-
 
 const Info = () => {
   const animation = useAnimation()
