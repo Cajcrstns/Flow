@@ -10,6 +10,7 @@
 
 .info-page {
   margin-top: 100px;
+  padding: 0 1.5em;
 }
 
 .works-info {
@@ -24,6 +25,10 @@
 
 .imagecontainer {
   width: 50%;
+}
+
+.imagecontainer .image {
+  border-radius: 15px;
 }
 
 .text {

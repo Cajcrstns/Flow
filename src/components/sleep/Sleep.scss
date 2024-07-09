@@ -28,6 +28,11 @@
 
 .imagecontainer {
   width: 50%;
+  padding: 2em;
+}
+
+.imagecontainer img {
+  border-radius: 15px;
 }
 
 .text {
@@ -37,11 +42,11 @@
 }
 
 .title {
-  padding-top: 50px;
   height: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  padding: 2em;
 }
 
 .information {
@@ -50,25 +55,23 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-left: 15px;
-  padding-bottom: 50px;
+  padding: 2em;
 }
 
 .title2 {
-  padding-top: 50px;
   height: 20%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 2em;
 }
 
 .information2 {
   height: 80%;
-  padding-right: 15px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-bottom: 50px;
+  padding: 2em;
 }
 
 .row1 h3, .row2 h3 , .row3 h3{
@@ -111,19 +114,6 @@
   .row1 h5, .row2 h5, .row3 h5{
     font-size: 20px;
   }
-  .title {
-    padding-top: 20px;
-  }
-  .title2 {
-    padding-top: 20px;
-
-  }
-  .information {
-    padding-bottom: 20px;
-  }
-  .information2 {
-    padding-bottom: 20px;
-  }
 }
 
 @media (max-width: 800px) {
@@ -152,6 +142,7 @@
   }
   .imagecontainer {
     width: 100%;
+    padding: 0;
   }
   
   .text {
@@ -164,6 +155,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 0;
+  }
+  .title2{
+    padding: 0;
   }
   .information {
     padding: 0;
