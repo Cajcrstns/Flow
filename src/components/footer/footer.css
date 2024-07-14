@@ -1,14 +1,14 @@
-.footer2 {
+.footer {
   position: relative;
   z-index: 0;
   margin: 0 auto;
 }
 
-.footer2 .container {
+.footer .container {
   display: flex;
 }
 
-.footer2 .container .footer-col {
+.footer .container .footer-col {
   flex: 1;
   display: flex;
   gap: 1em;
@@ -18,14 +18,14 @@
   justify-content: flex-end;
 }
 
-.footer-col .footer2-item a {
+.footer-col .footer-item a {
   color: white;
   font-family: "lisa";
   font-size: 30px;
   transition: color 0.3s ease;
 }
 
-.footer-col .footer2-item a:hover {
+.footer-col .footer-item a:hover {
   color: rgb(148, 148, 148);
 }
 
@@ -33,7 +33,7 @@
   .footer-col {
     flex-direction: column;
   }
-  .footer2 {
+  .footer {
     width: 100%;
   }
 
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 450px) {
-  .footer-col .footer2-item a {
+  .footer-col .footer-item a {
     font-size: 20px;
   }
 }
