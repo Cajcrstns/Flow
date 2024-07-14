@@ -65,7 +65,7 @@ useLayoutEffect(() => {
         </section>     
         <section
             className="section"
-            data-bgcolor="#a0d0e5"
+            data-bgcolor="#b3d4e1"
             data-textcolor="#FFFFFF"
         >
             <div
@@ -77,7 +77,7 @@ useLayoutEffect(() => {
         </section>
         <section
             className="section"
-            data-bgcolor="#a0d0e5"
+            data-bgcolor="#9ac6d7"
             data-textcolor="#FFFFFF"
             id="Sleep"
         >
