@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import ProjectImage1 from "../../assets/images/rooms/amsterdam-flow-picture-10.jpeg";
-import ProjectImage2 from "../../assets/images/rooms/amsterdam-flow-picture-18.jpeg";
-import ProjectImage3 from "../../assets/images/rooms/amsterdam-flow-picture-24.jpeg";
-import ProjectImage4 from "../../assets/images/rooms/amsterdam-flow-picture-2.jpeg";
-import ProjectImage5 from "../../assets/images/rooms/amsterdam-flow-picture-14.jpeg";
+import ProjectImage1 from "../../assets/highlights/1.jpg";
+import ProjectImage5 from "../../assets/highlights/11.jpg";
+import ProjectImage3 from "../../assets/highlights/113.jpg";
+import ProjectImage4 from "../../assets/highlights/20.jpg";
+import ProjectImage2 from "../../assets/highlights/68.jpg";
 import ProjectImage6 from "../../assets/images/rooms/amsterdam-flow-picture-16.jpeg";
 import ProjectImage7 from "../../assets/images/rooms/amsterdam-flow-picture-25.jpeg";
 import ProjectImage8 from "../../assets/images/rooms/amsterdam-flow-picture-9.jpeg";
@@ -56,21 +56,13 @@ const SampleProject = () => {
       <div className="sample-images">
         <div className="s-row">
           <div className="img">
-            <img src={ProjectImage7} alt="" />
-          </div>
-          <div className="img">
-            <img src={ProjectImage8} alt="" />
-          </div>
-        </div>
-        <div className="s-row">
-          <div className="img">
             <img src={ProjectImage1} alt="" />
           </div>
-        </div>
-        <div className="s-row">
           <div className="img">
             <img src={ProjectImage2} alt="" />
           </div>
+        </div>
+        <div className="s-row">
           <div className="img">
             <img src={ProjectImage3} alt="" />
           </div>
@@ -79,29 +71,10 @@ const SampleProject = () => {
           <div className="img">
             <img src={ProjectImage4} alt="" />
           </div>
-        </div>
-        <div className="s-row">
           <div className="img">
             <img src={ProjectImage5} alt="" />
           </div>
-          <div className="img">
-            <img src={ProjectImage6} alt="" />
-          </div>
         </div>
-        <div className="s-row">
-          <div className="img">
-            <img src={ProjectImage10} alt="" />
-          </div>
-        </div>
-        <div className="s-row">
-          <div className="img">
-            <img src={ProjectImage11} alt="" />
-          </div>
-          <div className="img">
-            <img src={ProjectImage12} alt="" />
-          </div>
-        </div>
-
         <div className="project-nav">
           <div className="link">
             <Link to="/rooms"><h2>Back</h2></Link>

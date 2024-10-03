@@ -6,11 +6,11 @@ import { gsap } from "gsap";
 
 import Logo from "../../assets/images/menu/logo.png"
 import Airbnb from "../../assets/images/menu/airbnb.png"
-import DefaultPreviewImg from "../../assets/images/menu/default.jpg";
-import LinkPreviewImg1 from "../../assets/images/home/flowSun.jpg";
-import LinkPreviewImg2 from "../../assets/images/menu/link-2.jpg";
-import LinkPreviewImg3 from "../../assets/images/menu/link-3.jpg";
-import LinkPreviewImg4 from "../../assets/images/menu/link-4.jpg";
+import DefaultPreviewImg from "../../assets/highlights/70.jpg";
+import LinkPreviewImg1 from "../../assets/highlights/54.jpg";
+import LinkPreviewImg2 from "../../assets/highlights/65.jpg";
+import LinkPreviewImg3 from "../../assets/highlights/102.jpg";
+import LinkPreviewImg4 from "../../assets/highlights/66.jpg";
 
 const Menu = () => {
   const menuLinks = [

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Blur from "../../plaiceholder/blur";
 
-import ProjectImg1 from "../../../assets/images/projects/project-12.jpg";
+import ProjectImg1 from "../../../assets/highlights/65.jpg";
 
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Blur from "../../plaiceholder/blur";
 
-import LinkPreviewImg4 from "../../../assets/images/menu/link-4.jpg";
+import LinkPreviewImg4 from "../../../assets/highlights/2.jpg";
 
 
 const InfoItem = ({ index, workName }) => {

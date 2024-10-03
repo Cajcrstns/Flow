@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import { gsap } from "gsap";
 
-import ProjectImg1 from "../../assets/images/projects/project-1.jpg";
-import ProjectImg2 from "../../assets/images/projects/project-2.jpg";
-import ProjectImg3 from "../../assets/images/projects/project-3.jpg";
+import ProjectImg1 from "../../assets/highlights/65.jpg";
+import ProjectImg2 from "../../assets/highlights/31.jpg";
+import ProjectImg3 from "../../assets/highlights/52.jpg";
 import Blue from "../../assets/images/projects/blue.jpg";
 import Orange from "../../assets/images/projects/orange.jpg";
 import Pink from "../../assets/images/projects/pink.jpg";
