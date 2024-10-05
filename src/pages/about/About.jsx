@@ -34,12 +34,10 @@ const About = () => {
         <div className="container">
           <section className="about-intro">
             <h2>
-              Welcome to Flow! Our hostel is located in the heart of the city,
-              just a short walk away from popular attractions.
-              With comfortable and affordable accommodations, our hostel offers a range of room options to suit all travelers.
-              Enjoy a communal kitchen, free Wi-Fi, and a cozy common area where you can meet fellow travelers.
-              Our friendly staff is always ready to provide recommendations and help you make the most of your stay in this vibrant and beautiful city.
-            </h2>
+              Welcome to Flow! Our vibrant and colorful hostel is located in the heart of the Amsterdam canals, just a
+              short walk away from popular attractions. The Flow is a unique Amsterdam stay, as we are located on a
+              boat; a boat which will be 100 years old this upcoming year. We have created a peaceful oasis that still
+              offers you the benefits of being located in the center of the city.            </h2>
           </section>
 
           <section className="about-intro-copy">
@@ -51,13 +49,14 @@ const About = () => {
               </div>
               <div className="about-col">
                 <h3>
-                  Whether you are a digital nomad or someone who loves a peaceful environment,
-                  our hostel offers the ideal blend of relaxation and productivity.
-                  Our comfortable accommodations provide a tranquil atmosphere,
-                  perfect for unwinding and refreshing after a day of work or exploring the city.
-                  The dedicated workspace is equipped with high-speed internet and all the amenities you need to stay focused and efficient.
-                  Additionally, our friendly staff is always available to assist, ensuring your stay is both pleasant and productive.
-                  Unwind, work, and explore at our relaxed and workspace hostel in Amsterdam.
+                  Here at The Flow we create a warm atmosphere for our guests that gives them the space to meet fellow
+                  travelers while playing our games on board or enjoying a refreshing drink together, or finding time to
+                  relax and reconnect with oneself on our sunny terrace. Our private rooms provide a comfortable and
+                  relaxing space to wind down at the end of each day whether you are traveling solo or with a group of
+                  friends and family. Enjoy a cozy lounge and terrace which offers great opportunities to meet others, a
+                  space to do some work with our free wifi, and self guided kayak tours on sunny days. Our friendly staff is
+                  always ready to provide recommendations and help you make the most of your stay in this magical and
+                  beautiful city.
                 </h3>
                 <h3 style={{ textIndent: "100px" }}>
                   Our hostel is named after the word flow because it symbolizes the seamless and effortless experience we aim to provide for our guests.

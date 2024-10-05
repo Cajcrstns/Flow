@@ -1,7 +1,7 @@
 import React from "react";
 import Blur from "../../plaiceholder/blur";
 
-import ProjectImg3 from "../../../assets/highlights/52.jpg";
+import ProjectImg3 from "../../../assets/highlights/83.jpg";
 
 
 const WorkItem3 = ({ index, workName }) => {

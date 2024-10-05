@@ -5,15 +5,14 @@ import "./about.scss";
 export default function About() {
   return (
     <div className="containervanhettekstje">
-    <div className="tekstje">
-            <h2>
-              Welcome to Flow! Our hostel is located in the heart of the city, 
-              just a short walk away from popular attractions.
-              With comfortable and affordable accommodations, our hostel offers a range of room options to suit all travelers.
-              Enjoy a communal kitchen, free Wi-Fi, and a cozy common area where you can meet fellow travelers. 
-              Our friendly staff is always ready to provide recommendations and help you make the most of your stay in this vibrant and beautiful city.              
-            </h2>
-    </div>
+      <div className="tekstje">
+          <h2>
+            Welcome to Flow! Our vibrant and colorful hostel is located in the heart of the Amsterdam canals, just a
+            short walk away from popular attractions. The Flow is a unique Amsterdam stay, as we are located on a
+            boat; a boat which will be 100 years old this upcoming year. We have created a peaceful oasis that still
+            offers you the benefits of being located in the center of the city.
+          </h2>
+      </div>
     </div>
   );
 }

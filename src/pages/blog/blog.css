@@ -5,13 +5,14 @@
   background-color: #000000;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .info-row-mindfulness {
   display: flex;
   align-items: center;
-  padding-left: 10%;
-  width: 90%;
+  justify-content: center;
+  width: 95%;
 }
 
 .info-row-mindfulness p {
@@ -24,6 +25,9 @@
 
 .mustang-page .container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mustang-video {

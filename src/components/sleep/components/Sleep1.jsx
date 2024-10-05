@@ -20,69 +20,65 @@ const Sleep1 = () => {
   }, [animation, inView])
 
   return (
-    <motion.div 
+    <motion.div
     >
       <motion.div>
         <div className="works">
-          <motion.div 
-          className="row1"
-          ref={featured}
-          animate={animation}
-          initial="hidden"
-          variants={{
-          visible: {
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.8, ease: easeIn },
-          },
-          hidden: { opacity: 0, y: 0 },
-          }}>
+          <motion.div
+            className="row1"
+            ref={featured}
+            animate={animation}
+            initial="hidden"
+            variants={{
+              visible: {
+                opacity: 1,
+                y: 0,
+                transition: { duration: 0.8, ease: easeIn },
+              },
+              hidden: { opacity: 0, y: 0 },
+            }}>
             <div className="imagecontainer">
-            <WorkItem className="image"/>
+              <WorkItem className="image" />
             </div>
             <div className="text">
-            <div className="title">
-            <motion.h5
-            ref={featured}
-            animate={animation}
-            initial="hidden"
-            variants={{
-            visible: {
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.8, ease: easeIn },
-            },
-            hidden: { opacity: 0, y: -50 },
-            }}>
-              2 person room
-            </motion.h5>
-            </div>
-            <div className="information">
-            <motion.h3
-            ref={featured}
-            animate={animation}
-            initial="hidden"
-            variants={{
-            visible: {
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.8, ease: easeIn },
-            },
-            hidden: { opacity: 0, y: 30 },
-            }}>
-              our cozy two-person room!
-              The room features two comfortable beds above each other with a shared bathroom. 
-              Whether youre traveling with a friend or a loved one, our small but charming room 
-              is the perfect choice for a budget-friendly and intimate stay in our hostel. 
-              Enjoy your time here!
-              <br /><br />
-              <Link to="/two-person-room" className="link"><h5>Learn More</h5></Link>
-            </motion.h3>
-            </div>
+              <div className="title">
+                <motion.h5
+                  ref={featured}
+                  animate={animation}
+                  initial="hidden"
+                  variants={{
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                      transition: { duration: 0.8, ease: easeIn },
+                    },
+                    hidden: { opacity: 0, y: -50 },
+                  }}>
+                  The Rooms
+                </motion.h5>
+              </div>
+              <div className="information">
+                <motion.h3
+                  ref={featured}
+                  animate={animation}
+                  initial="hidden"
+                  variants={{
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                      transition: { duration: 0.8, ease: easeIn },
+                    },
+                    hidden: { opacity: 0, y: 30 },
+                  }}>
+                  Here we offer our bunk beds which provide a cozy and comfortable sleep
+                  each night. Each room is equipped with fresh linens and a small sink which allows you to brush your
+                  teeth, freshen up, and wash your face.
+                </motion.h3>
+              </div>
             </div>
           </motion.div>
         </div>
-    </motion.div>
+      </motion.div>
     </motion.div>
   );
 };

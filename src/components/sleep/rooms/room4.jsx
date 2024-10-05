@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Blur from "../../plaiceholder/blur";
 
-import ProjectImg2 from "../../../assets/highlights/31.jpg";
+import ProjectImg2 from "../../../assets/highlights/46.jpg";
 
 
 const WorkItem2 = ({ index, workName }) => {
