@@ -20,8 +20,8 @@
 
 .footer-col .footer2-item a {
   color: white;
-  font-family: "lisa";
-  font-size: 30px;
+  font-family: inter;
+  font-size: 25px;
   transition: color 0.3s ease;
 }
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import WorkItem from "../rooms/room2";
+import WorkItem from "../rooms/room6";
 import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
 import { Link } from "react-router-dom";
