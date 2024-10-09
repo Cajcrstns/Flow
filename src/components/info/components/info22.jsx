@@ -39,12 +39,12 @@ const Sleep1 = () => {
             <div className="text">
               <div className="title2">
                 <motion.h5>
-                  locatie
+                  Access
                 </motion.h5>
               </div>
               <div className="information2">
                 <motion.h3>
-                How to get from Schiphol airport to The Flow: <br />
+                  If you arrive by plane: <br />
                   Once you arrive at Schipol and collect your baggage head to the kiosk to buy train tickets. Take the train that stops at Central station in Amsterdam
                   From there it is a 15 minute walk to the boat. We are docked at Oosterdok 4 at the end of the pier, you can also look for the colorful flags and lights and you will easily spot us<br /><br />
                   If you arriving by car:<br />
