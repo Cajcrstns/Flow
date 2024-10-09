@@ -4,9 +4,8 @@
 }
 
 .project-preview {
-  position: absolute;
+  position: relative;
   width: 100vw;
-  height: 100vh;
   z-index: 0;
   opacity: 1;
 }
@@ -43,7 +42,7 @@
 }
 
 .project-list-row {
-  width: 75%;
+  width: 85%;
   display: flex;
   margin: 0 auto 4em auto;
 }
@@ -86,33 +85,21 @@
   pointer-events: none;
 }
 
-.works-marquee {
-  position: relative;
-  z-index: 0;
-  width: 120vw;
-  left: -10vw;
-}
 
 .work-copy-wrapper h1 {
   position: relative;
   top: 250px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .project-copy h2{
     font-size: 60px;
   }
 }
-@media (max-width: 1300px) {
-  .project-copy h2{
-    font-size: 50px;
-  }
-}
+
 
 @media (max-width: 900px) {
-  .works-hero{
-    height: 300px;
-  }
+
   .project-list-row {
     width: 100%;
   }
@@ -140,9 +127,3 @@
   }
 }
 
-@media (max-width: 500px) {
-  .project-copy h2{
-    color: white;
-    opacity: 1;
-  }
-}

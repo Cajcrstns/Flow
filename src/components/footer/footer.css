@@ -1,15 +1,18 @@
 .footer {
-  position: relative;
-  z-index: 0;
-  margin: 0 auto;
-}
-
-.footer .container {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer .container .footer-col {
-  flex: 1;
+.footer .containersss {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  padding: 2em 0;
+}
+
+.footer .containersss .footer-col {
   display: flex;
   gap: 1em;
 }
@@ -28,22 +31,16 @@
   color: rgb(148, 148, 148);
 }
 
+
 @media (max-width: 900px) {
+  .footer-col .footer2-item a {
+    font-size: 22px;
+  }
   .footer-col {
     flex-direction: column;
   }
-  .footer {
-    width: 100%;
-  }
-
   .footer-col:nth-child(2) {
     justify-content: flex-start;
     align-items: flex-end;
-  }
-}
-
-@media (max-width: 450px) {
-  .footer-col .footer-item a {
-    font-size: 20px;
   }
 }

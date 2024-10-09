@@ -1,34 +1,27 @@
-.whitespace-300 {
-  width: 100%;
-  height: 200px;
-}
-
-.whitespace-200 {
-  width: 100%;
-  height: 0px;
-}
-
 .row {
   display: none;
 }
 
-.work-page {
-  margin-top: 100px;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
-.works {
-  margin: 0 2em;
+.work-page {
+  width: 96%;
 }
 
 .row1, .row2, .row3 {
   width: 100%;
   display: flex;
-  
+  gap: 2em;
+  margin-bottom: 3em;
 }
 
 .imagecontainer {
   width: 50%;
-  padding: 2em;
 }
 
 .imagecontainer img {
@@ -46,7 +39,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 2em;
 }
 
 .information {
@@ -55,7 +47,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 2em;
 }
 
 .title2 {
@@ -63,7 +54,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 2em;
 }
 
 .information2 {
@@ -71,7 +61,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 2em;
 }
 
 .row1 h3, .row2 h3 , .row3 h3{
@@ -86,60 +75,29 @@
   font-family: inter;
 }
 
-.link h5 {
-  color: rgb(75, 75, 75);
-  transition: color 0.3s;
-}
-
-.link h5:hover {
-  color: rgb(0, 0, 0);
-  transition: color 0.3s;
-}
-
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
   .row1 h3, .row2 h3 , .row3 h3{
-    font-weight: 100;
     font-size: 22px;
   }
   
   .row1 h5, .row2 h5, .row3 h5{
-    font-size: 24px;
+    font-size: 22px;
   }
-}
-@media (max-width: 1000px) {
-  .row1 h3, .row2 h3 , .row3 h3{
-    font-weight: 100;
-    font-size: 18px;
-  }
-  
-  .row1 h5, .row2 h5, .row3 h5{
-    font-size: 20px;
+
+  .flex {
+    margin-bottom: 50px;
   }
 }
 
-@media (max-width: 800px) {
-  .row1 h3, .row2 h3 , .row3 h3{
-    font-weight: 100;
-    font-size: 16px;
-  }
-  
-  .row1 h5, .row2 h5, .row3 h5{
-    font-size: 18px;
-  }
-}
 
-@media (max-width: 650px) {
-  .whitespace-300 {
-    width: 100%;
-    height: 150px;
-  }
-
+@media (max-width: 900px) {
   .work-page {
     margin-top: 0px;
   }
 
   .row1, .row2, .row3 {
     flex-direction: column;
+    margin-bottom: 0;
   }
   .imagecontainer {
     width: 100%;

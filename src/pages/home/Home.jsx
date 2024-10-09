@@ -6,7 +6,7 @@ import Transition from '../../components/transition/Transition';
 import View from "../../components/view/View";
 import About from '../../components/about/About';
 import Sleep from "../../components/sleep/Sleep"
-import Blog from "../../pages/blog/Blog"
+import Blog from "../../components/mindfullness/Blog"
 import Info from "../../components/info/Info"
 
 gsap.registerPlugin(ScrollTrigger)

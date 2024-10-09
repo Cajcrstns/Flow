@@ -1,4 +1,4 @@
-.about-intro-copy .about-row {
+.about-intro-copy .about-row,  .about-intro-copy2 .about-row{
   width: 100%;
   display: flex !important;
   flex-direction: row;
@@ -25,7 +25,7 @@
 }
 
 .about-intro {
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .about-intro h2 {
@@ -35,13 +35,20 @@
   font-weight: 400;
 }
 
+
+
 .about-intro-copy,
+.about-contact-copy2,
 .about-portrait,
 .about-awards {
   margin: 2em auto;
 }
 
-.about-intro-copy h3 {
+.about-intro-copy2 .about-row {
+  gap: 3em;
+}
+
+.about-intro-copy h3, .about-intro-copy2 h3 {
   font-weight: 200 !important;
   font-size: 24px;
   font-family: inter;
@@ -116,6 +123,7 @@
 .about-row.award-row p{
   font-family: inter;
   font-weight: 200;
+  font-size: 20px;
 }
 
 .about-row.award-row .about-col {
@@ -158,7 +166,7 @@
   font-weight: 200;}
 
 @media (max-width: 900px) {
-  .about-intro-copy .about-row {
+  .about-intro-copy .about-row, .about-intro-copy2 .about-row {
     flex-direction: column;
   }
   
@@ -174,6 +182,7 @@
   }
 
   .about-intro-copy,
+  .about-intro-copy2,
   .about-portrait,
   .about-awards {
     width: 100%;

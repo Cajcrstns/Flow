@@ -1,0 +1,77 @@
+.mustang-page {
+  position: relative;
+  overflow: hidden !important;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.info-row-mindfulness {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8em 2em;
+}
+
+.info-row-mindfulness p {
+  line-height: 1.3em;
+  font-size: 29px;
+  color: white;
+  font-family: "lisa";
+}
+
+
+.mustang-page .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mustang-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  transform: scale(2);
+
+}
+
+.hero-video {
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.video {
+  position: absolute !important;
+  pointer-events: none;
+  width: 90%;
+  height: 80%;
+}
+
+@media (max-width: 1200px) {
+  .info-row-mindfulness p {
+    line-height: 1.3em;
+    font-size: 22px;
+  }
+  .mustang-page{
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .mustang-video{
+    transform: scale(3);
+  }
+  .info-row-mindfulness{
+    padding: 2em 1em;
+  }
+}

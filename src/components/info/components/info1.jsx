@@ -4,7 +4,6 @@ import { motion, useAnimation, easeIn } from "framer-motion";
 import { useInView } from "react-intersection-observer"
 
 
-import "../Info.scss";
 
 const Sleep1 = () => {
   const animation = useAnimation()
@@ -23,7 +22,7 @@ const Sleep1 = () => {
     <motion.div 
     >
       <motion.div>
-        <div className="works-info">
+        <div className="works">
           <motion.div 
           className="row2"
           ref={featured}
@@ -38,7 +37,7 @@ const Sleep1 = () => {
           hidden: { opacity: 0, y: 0 },
           }}>
             <div className="text">
-            <div className="title-info2">
+            <div className="title2">
             <motion.h5
             ref={featured}
             animate={animation}
@@ -54,7 +53,7 @@ const Sleep1 = () => {
               Location
             </motion.h5>
             </div>
-            <div className="information-info2">
+            <div className="information2">
             <motion.h3
             ref={featured}
             animate={animation}
