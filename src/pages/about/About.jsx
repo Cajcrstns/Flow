@@ -107,7 +107,7 @@ const About = () => {
               <div className="about-col"></div>
               <div className="about-col award-header">
                 <h3>
-                  <span>Things to do nearby</span>
+                  Things to do nearby
                 </h3>
               </div>
             </div>

@@ -89,7 +89,7 @@ useLayoutEffect(() => {
         </section>
         <section
             className="section"
-            data-bgcolor="##e8dcca"
+            data-bgcolor="#9ac6d7"
             data-textcolor="#FFFFFF"
             id="Mindfulness"
         >
@@ -101,7 +101,7 @@ useLayoutEffect(() => {
         </section>
         <section
             className="section"
-            data-bgcolor="#eebca5"
+            data-bgcolor="#b3d4e1"
             data-textcolor="#FFFFFF"
             id='info'
         >

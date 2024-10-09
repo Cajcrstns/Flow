@@ -109,8 +109,9 @@
   top: 24px !important;
 }
 
-.award-header {
-  margin: 3em 0;
+.award-header h3 {
+  margin: 2em 0;
+  font-size: 24px;
 }
 
 .about-row.award-row {
@@ -161,9 +162,10 @@
 
 .about-contact-copy p span {
   text-transform: none;
-  font-size: 20px;
+  font-size: 24px;
   font-family: inter;
-  font-weight: 200;}
+  font-weight: 200;
+}
 
 @media (max-width: 900px) {
   .about-intro-copy .about-row, .about-intro-copy2 .about-row {

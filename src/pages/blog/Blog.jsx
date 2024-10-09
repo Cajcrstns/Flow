@@ -79,7 +79,7 @@ const About = () => {
             <div className="about-row">
               <div className="about-col award-header">
                 <h3>
-                  <span>A typical schedule may look like</span>
+                  A typical schedule may look like
                 </h3>
               </div>
             </div>
@@ -243,7 +243,7 @@ const About = () => {
               </div>
               <div className="about-col">
                 <div className="award-info">
-                  <p>Yin / Restorative Yoga</p>
+                  <p>Yin/ Restorative Yoga</p>
                 </div>
                 <div className="award-project">
                   <p></p>
