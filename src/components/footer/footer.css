@@ -34,7 +34,7 @@
 
 @media (max-width: 900px) {
   .footer-col .footer2-item a {
-    font-size: 22px;
+    font-size: 24px;
   }
   .footer-col {
     flex-direction: column;
