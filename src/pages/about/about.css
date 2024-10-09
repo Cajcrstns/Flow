@@ -121,12 +121,6 @@
   font-weight: 200;
 }
 
-.about-row.award-row p{
-  font-family: inter;
-  font-weight: 200;
-  font-size: 20px;
-}
-
 .about-row.award-row .about-col {
   display: flex;
 }
@@ -157,10 +151,9 @@
   margin-bottom: 0.25em;
   font-family: inter;
   font-weight: 200;
-
 }
 
-.about-contact-copy p span {
+.about-contact-copy p {
   text-transform: none;
   font-size: 24px;
   font-family: inter;
@@ -195,8 +188,3 @@
   }
 }
 
-@media (max-width: 500px) {
-  .about-intro h2{
-    font-size: 24px;
-  }
-}
