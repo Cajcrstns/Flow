@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react"
 
 import Menu from "./components/menu/Menu";
 import Home from "./pages/home/Home";
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <Analytics />
       <ScrollToTop />
       {loading ? (
         <motion.div key='loader'>
