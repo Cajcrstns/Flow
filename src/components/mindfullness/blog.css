@@ -88,7 +88,7 @@
 
 @media (max-width: 450px) {
   .mustang-video{
-    transform: scale(5);
+    transform: scale(5.5);
   }
   .info-row-mindfulness{
     padding: 6em 1em;

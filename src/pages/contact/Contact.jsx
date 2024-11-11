@@ -85,12 +85,12 @@ const Contact = () => {
                 </div>
                 <div className="contact-social-link">
                   <p>
-                    <a href="mailto:moos@flowhostel.nl" target="_blank" rel="noopener noreferrer">mail</a>
+                    <a href="mailto:flow.oosterdok@gmail.com" target="_blank" rel="noopener noreferrer">mail</a>
                   </p>
                 </div>
                 <div className="contact-social-link">
                   <p>
-                    <a href="tel:+31624281824" target="_blank" rel="noopener noreferrer">phone</a>
+                    <a href="tel:+31622761721" target="_blank" rel="noopener noreferrer">phone</a>
                   </p>
                 </div>
               </div>
