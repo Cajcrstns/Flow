@@ -31,7 +31,7 @@ const Footer = () => {
             <a href="mailto:flow.oosterdok@gmail.com" target="_blank" rel="noopener noreferrer">mail</a>
           </div>
           <div className="footer2-item">
-            <a href="tel:+31622761721" target="_blank" rel="noopener noreferrer">phone</a>
+            <a href="tel:+31651059867" target="_blank" rel="noopener noreferrer">phone</a>
           </div>
         </div>
       </div>

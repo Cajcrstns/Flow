@@ -90,7 +90,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-social-link">
                   <p>
-                    <a href="tel:+31622761721" target="_blank" rel="noopener noreferrer">phone</a>
+                    <a href="tel:+31651059867" target="_blank" rel="noopener noreferrer">phone</a>
                   </p>
                 </div>
               </div>
